@@ -339,6 +339,21 @@ body {
     grid-row: 2 / -1;
     background-color: #edf3f7;
     padding-left: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.login-footer p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: .5rem;
+}
+
+.login-footer a {
+    text-decoration: none;
+    color: #1aa1f5;
 }
 
 /* end of login */
